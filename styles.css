@@ -1,0 +1,75 @@
+* {
+    font-family: "Arial", "Verdana", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cca300;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    color: #222;
+}
+
+header {
+    background-color: rgb(140,29,64);
+    color: #ccc;
+    width: 1000px;
+	padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+	font-size: 30px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+nav ul {
+    padding-left: 300px;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+nav a {
+    background-color: #ffc627;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:16px;
+    margin-right: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main {
+	display: flex;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+iframe {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	background-color: rgb(140,29,64);
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
